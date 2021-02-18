@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}
+
+html, body {
+  height: 100%;
+  background-color: #303841;
+
+  text-align: center;
+  padding-top: 16px;
+}
+
+a{
+    color: #d6ab00;
+}
+
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 550px;
+  height: 400px;
+  padding: 0 16px;
+  text-align: center;
+}
+
+form #upImg {
+  display: none;
+}
+
+form #upImg ~ label {
+  border: 4px dashed rgba(255, 255, 255, 0.3);
+  width: 100%;
+  height: 80%;
+  border-radius: 16px;
+  display: block;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 96px;
+}
+
+form #upImg ~ label h1 {
+  font-size: 80px;
+  margin-bottom: 8px;
+}
+
+form #upImg ~ label h2 {
+  font-size: 24px;
+}
+
+form #upImg ~ label:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.02);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+form.notValid label {
+  border: 4px dashed rgba(255, 155, 155, 0.3) !important;
+  color: rgba(255, 105, 105, 0.5) !important;
+}
+
+form input[type=submit] {
+  background: #d6ab00;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px 24px;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
